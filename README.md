@@ -1,7 +1,7 @@
 Flexiboi
 ===========
 
-Flexiboi is a simple and flexible flexbox framework spun out of the Flexbox Grid.
+Flexiboi is a simple and flexible flexbox framework spun out of Flexbox Grid.
 
 
 Flexboxgrid:
