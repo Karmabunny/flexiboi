@@ -1,0 +1,34 @@
+{
+  "name": "flexiboi",
+  "version": "1.0.0",
+  "description": "Flexiboi is a simple and flexible flexbox framework spun out of Flexbox Grid",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch",
+    "watch": "gulp watch",
+    "notify": "gulp notify",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karmabunny/flexiboi.git"
+  },
+  "author": "Karmabunny",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "karmabunny": {
+    "src": [
+      "flexiboi.scss"
+    ],
+    "target": "build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-notifier": "^9.0.1"
+  }
+}
