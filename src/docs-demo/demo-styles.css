@@ -1,0 +1,33 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+
+html,
+body {
+    background: #FFF;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
